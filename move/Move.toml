@@ -1,0 +1,10 @@
+[package]
+name = "shelby_form"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+
+[addresses]
+shelby_form_addr = "_"
